@@ -1,0 +1,65 @@
+name: smartscan_ai
+description: A production-ready document scanner application with OCR, PDF generation, and intelligent edge detection.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Database
+  sqflite: ^2.3.2
+  path: ^1.9.0
+
+  # Camera & Image
+  camera: ^0.10.5+9
+  image: ^4.1.4
+  image_picker: ^1.0.7
+  image_cropper: ^5.0.1
+
+  # ML & OCR
+  google_mlkit_text_recognition: ^0.11.0
+
+  # PDF
+  pdf: ^3.10.7
+  printing: ^5.12.0
+
+  # File & Storage
+  path_provider: ^2.1.2
+  share_plus: ^7.2.2
+  file_picker: ^6.1.1
+
+  # Permissions
+  permission_handler: ^11.3.0
+
+  # UI
+  flutter_animate: ^4.3.0
+  shimmer: ^3.0.0
+
+  # Utils
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/icons/
+  #   - assets/images/
