@@ -13,7 +13,7 @@
     <application
         android:label="SmartScan AI"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@android:mipmap/sym_def_app_icon"
         android:enableOnBackInvokedCallback="true">
         
         <activity
